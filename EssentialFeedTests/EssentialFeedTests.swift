@@ -1,8 +1,5 @@
 //
-//  EssentialFeedTests.swift
-//  EssentialFeedTests
-//
-//  Created by Віталій on 15.12.2021.
+//  Created by Vitalii on 15.12.2021.
 //
 
 import XCTest
