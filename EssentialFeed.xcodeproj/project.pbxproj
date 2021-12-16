@@ -15,6 +15,7 @@
 		FA992D6C276A7E8D000C13AA /* LoadFeedResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA992D6B276A7E8D000C13AA /* LoadFeedResult.swift */; };
 		FA992D70276AA25A000C13AA /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA992D6F276AA25A000C13AA /* RemoteFeedLoader.swift */; };
 		FA992D72276B2804000C13AA /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA992D71276B2804000C13AA /* HttpClient.swift */; };
+		FA992D74276BC835000C13AA /* HTTPClientResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA992D73276BC834000C13AA /* HTTPClientResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		FA992D6B276A7E8D000C13AA /* LoadFeedResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedResult.swift; sourceTree = "<group>"; };
 		FA992D6F276AA25A000C13AA /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		FA992D71276B2804000C13AA /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		FA992D73276BC834000C13AA /* HTTPClientResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				FA992D71276B2804000C13AA /* HttpClient.swift */,
 				FA992D6F276AA25A000C13AA /* RemoteFeedLoader.swift */,
+				FA992D73276BC834000C13AA /* HTTPClientResult.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				FA992D72276B2804000C13AA /* HttpClient.swift in Sources */,
 				FA992D70276AA25A000C13AA /* RemoteFeedLoader.swift in Sources */,
 				FA992D6A276A7C22000C13AA /* FeedLoader.swift in Sources */,
+				FA992D74276BC835000C13AA /* HTTPClientResult.swift in Sources */,
 				FA992D6C276A7E8D000C13AA /* LoadFeedResult.swift in Sources */,
 				FA992D68276A7B25000C13AA /* FeedItem.swift in Sources */,
 			);
