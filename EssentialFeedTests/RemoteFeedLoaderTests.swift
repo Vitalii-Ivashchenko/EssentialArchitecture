@@ -130,7 +130,7 @@ class RemoteFeedLoaderTests: XCTestCase {
         XCTAssertEqual(capturedResults, [result ], file: file, line: line)
     }
     
-    private class HttpClientSpy: HttpClient {
+    private class HttpClientSpy: HTTPClient {
         
         private var messages = [(url: URL, completion: (HTTPClientResult) -> Void)]()
         

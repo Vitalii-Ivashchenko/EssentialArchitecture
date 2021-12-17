@@ -4,6 +4,6 @@
 
 import Foundation
 
-public protocol HttpClient {
+public protocol HTTPClient {
     func get(from url: URL, completion: @escaping (HTTPClientResult) -> Void)
 }
