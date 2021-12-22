@@ -5,6 +5,5 @@
 import Foundation
 
 protocol FeedLoader {
-    associatedtype Error: Swift.Error
-    func load(completion: @escaping (LoadFeedResult<Error>) -> Void)
+    func load(completion: @escaping (LoadFeedResult) -> Void)
 }
