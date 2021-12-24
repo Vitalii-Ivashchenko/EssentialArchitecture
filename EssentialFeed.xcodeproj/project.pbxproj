@@ -125,10 +125,10 @@
 		FA992D6E276AA243000C13AA /* Feed API */ = {
 			isa = PBXGroup;
 			children = (
+				FA992D75276D131B000C13AA /* FeedItemsMapper.swift */,
 				FA992D71276B2804000C13AA /* HTTPClient.swift */,
 				FA992D73276BC834000C13AA /* HTTPClientResult.swift */,
 				FA992D6F276AA25A000C13AA /* RemoteFeedLoader.swift */,
-				FA992D75276D131B000C13AA /* FeedItemsMapper.swift */,
 				FA966E882773BC11006F5E39 /* URLSessionHTTPClient.swift */,
 			);
 			path = "Feed API";
