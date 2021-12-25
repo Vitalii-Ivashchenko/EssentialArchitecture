@@ -19,4 +19,4 @@ jobs:
         run: sudo xcode-select -switch /Applications/Xcode_13.2.app
     
       - name: Build and test
-        run: xcodebuild clean build test -project EssentialFeed -scheme CI
+        run: xcodebuild clean build test -project EssentialFeed.xcodeproj -scheme CI
