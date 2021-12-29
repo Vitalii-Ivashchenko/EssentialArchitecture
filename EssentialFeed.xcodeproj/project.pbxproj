@@ -26,6 +26,7 @@
 		FAAA9609277BB029001620EF /* CacheFeedUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA9608277BB029001620EF /* CacheFeedUseCaseTests.swift */; };
 		FAAA960C277BD0BB001620EF /* LocalFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA960B277BD0BB001620EF /* LocalFeedLoader.swift */; };
 		FAAA960E277BD113001620EF /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA960D277BD113001620EF /* FeedStore.swift */; };
+		FAAA9610277C94CD001620EF /* RemoteFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA960F277C94CD001620EF /* RemoteFeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		FAAA9608277BB029001620EF /* CacheFeedUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedUseCaseTests.swift; sourceTree = "<group>"; };
 		FAAA960B277BD0BB001620EF /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
 		FAAA960D277BD113001620EF /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
+		FAAA960F277C94CD001620EF /* RemoteFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 				FA992D75276D131B000C13AA /* FeedItemsMapper.swift */,
 				FA992D71276B2804000C13AA /* HTTPClient.swift */,
 				FA992D73276BC834000C13AA /* HTTPClientResult.swift */,
+				FAAA960F277C94CD001620EF /* RemoteFeedItem.swift */,
 				FA992D6F276AA25A000C13AA /* RemoteFeedLoader.swift */,
 				FA966E882773BC11006F5E39 /* URLSessionHTTPClient.swift */,
 			);
@@ -356,6 +359,7 @@
 				FA992D76276D131B000C13AA /* FeedItemsMapper.swift in Sources */,
 				FA992D74276BC835000C13AA /* HTTPClientResult.swift in Sources */,
 				FA992D6C276A7E8D000C13AA /* LoadFeedResult.swift in Sources */,
+				FAAA9610277C94CD001620EF /* RemoteFeedItem.swift in Sources */,
 				FA992D68276A7B25000C13AA /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
