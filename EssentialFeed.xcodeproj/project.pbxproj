@@ -35,6 +35,7 @@
 		FAB2CD81277E1586007E79DF /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2CD80277E1586007E79DF /* SharedTestHelpers.swift */; };
 		FAB2CD84277E2A06007E79DF /* FeedCachePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2CD82277E29D0007E79DF /* FeedCachePolicy.swift */; };
 		FAB2CD86278094AA007E79DF /* CodableFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2CD85278094AA007E79DF /* CodableFeedStoreTests.swift */; };
+		FAB2CD8827825D39007E79DF /* CodableFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2CD8727825D39007E79DF /* CodableFeedStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		FAB2CD80277E1586007E79DF /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
 		FAB2CD82277E29D0007E79DF /* FeedCachePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCachePolicy.swift; sourceTree = "<group>"; };
 		FAB2CD85278094AA007E79DF /* CodableFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStoreTests.swift; sourceTree = "<group>"; };
+		FAB2CD8727825D39007E79DF /* CodableFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,7 @@
 		FAAA960A277BD0A5001620EF /* Feed Cache */ = {
 			isa = PBXGroup;
 			children = (
+				FAB2CD8727825D39007E79DF /* CodableFeedStore.swift */,
 				FAB2CD82277E29D0007E79DF /* FeedCachePolicy.swift */,
 				FAAA960D277BD113001620EF /* FeedStore.swift */,
 				FAAA9611277C9523001620EF /* LocalFeedImage.swift */,
@@ -390,6 +393,7 @@
 				FAAA9612277C9523001620EF /* LocalFeedImage.swift in Sources */,
 				FA966E892773BC11006F5E39 /* URLSessionHTTPClient.swift in Sources */,
 				FAAA960E277BD113001620EF /* FeedStore.swift in Sources */,
+				FAB2CD8827825D39007E79DF /* CodableFeedStore.swift in Sources */,
 				FA992D76276D131B000C13AA /* FeedItemsMapper.swift in Sources */,
 				FA992D74276BC835000C13AA /* HTTPClientResult.swift in Sources */,
 				FA992D6C276A7E8D000C13AA /* LoadFeedResult.swift in Sources */,
