@@ -216,8 +216,8 @@
 				FAB2CD892783A162007E79DF /* FeedStoreSpecs.swift */,
 				FAB2CD77277D0727007E79DF /* LoadFeedFromCacheUseCaseTests.swift */,
 				FAB2CD7C277DD5B5007E79DF /* ValidateFeedCacheUseCaseTests.swift */,
-				FAB2CD79277D0954007E79DF /* Helpers */,
 				FAB2CD8B2783A41C007E79DF /* XCTestCase+FeedStoreSpecs.swift */,
+				FAB2CD79277D0954007E79DF /* Helpers */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
