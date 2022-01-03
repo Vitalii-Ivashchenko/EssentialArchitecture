@@ -208,10 +208,10 @@
 			isa = PBXGroup;
 			children = (
 				FAAA9608277BB029001620EF /* CacheFeedUseCaseTests.swift */,
+				FAB2CD85278094AA007E79DF /* CodableFeedStoreTests.swift */,
 				FAB2CD77277D0727007E79DF /* LoadFeedFromCacheUseCaseTests.swift */,
 				FAB2CD7C277DD5B5007E79DF /* ValidateFeedCacheUseCaseTests.swift */,
 				FAB2CD79277D0954007E79DF /* Helpers */,
-				FAB2CD85278094AA007E79DF /* CodableFeedStoreTests.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
