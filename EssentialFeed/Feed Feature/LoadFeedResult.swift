@@ -4,7 +4,4 @@
 
 import Foundation
 
-public enum LoadFeedResult {
-    case success([FeedImage])
-    case failure(Error)
-}
+public typealias LoadFeedResult = Result<[FeedImage], Error>
