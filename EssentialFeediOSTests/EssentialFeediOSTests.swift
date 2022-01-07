@@ -1,12 +1,8 @@
 //
-//  EssentialFeediOSTests.swift
-//  EssentialFeediOSTests
-//
-//  Created by Віталій on 07.01.2022.
+//  Created by Vitalii on 07.01.2022.
 //
 
 import XCTest
-@testable import EssentialFeediOS
 
 class EssentialFeediOSTests: XCTestCase {
 

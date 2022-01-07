@@ -2,6 +2,7 @@
 //  Created by Vitalii on 29.12.2021.
 //
 
+import Foundation
 import EssentialFeed
 
 class FeedStoreSpy: FeedStore {
