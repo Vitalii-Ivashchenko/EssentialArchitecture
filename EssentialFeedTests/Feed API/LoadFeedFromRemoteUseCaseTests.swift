@@ -5,7 +5,7 @@
 import EssentialFeed
 import XCTest
 
-class RemoteFeedLoaderTests: XCTestCase {
+class LoadFeedFromRemoteUseCaseTests: XCTestCase {
     
     func test_init_doesNotRequestDataFromURL() {
         let (_, client) = makeSUT()
@@ -112,8 +112,8 @@ class RemoteFeedLoaderTests: XCTestCase {
     private func makeSUT(url: URL = URL(string: "https://a-url.com")!, file: StaticString = #filePath, line: UInt = #line) -> (sut: RemoteFeedLoader, client: HttpClientSpy) {
         let client = HttpClientSpy()
         let sut = RemoteFeedLoader(url: url, client: client)
-        trackMemoryLeaks(sut, file: file, line: line)
-        trackMemoryLeaks(client, file: file, line: line)
+        trackForMemoryLeaks(sut, file: file, line: line)
+        trackForMemoryLeaks(client, file: file, line: line)
         return (sut, client)
     }
     
@@ -121,8 +121,8 @@ class RemoteFeedLoaderTests: XCTestCase {
         return .failure(error)
     }
     
-    private func makeItem(id: UUID = UUID(), description: String? = nil, location: String? = nil, imageURL: URL) -> (model: FeedItem, json: [String: Any]) {
-        let item = FeedItem(id: id, description: description, location: location, imageURL: imageURL)
+    private func makeItem(id: UUID = UUID(), description: String? = nil, location: String? = nil, imageURL: URL) -> (model: FeedImage, json: [String: Any]) {
+        let item = FeedImage(id: id, description: description, location: location, url: imageURL)
         
         let json = [
             "id": id.uuidString,
@@ -164,13 +164,13 @@ class RemoteFeedLoaderTests: XCTestCase {
     
     private class HttpClientSpy: HTTPClient {
         
-        private var messages = [(url: URL, completion: (HTTPClientResult) -> Void)]()
+        private var messages = [(url: URL, completion: (HTTPClient.Result) -> Void)]()
         
         var requestedURLs: [URL] {
             return messages.map { $0.url }
         }
         
-        func get(from url: URL, completion: @escaping (HTTPClientResult) -> Void) {
+        func get(from url: URL, completion: @escaping (HTTPClient.Result) -> Void) {
             messages.append((url, completion))
         }
         
@@ -185,7 +185,7 @@ class RemoteFeedLoaderTests: XCTestCase {
                 httpVersion: nil,
                 headerFields: nil
             )!
-            messages[index].completion(.success(data, response))
+            messages[index].completion(.success((data, response)))
         }
     }
 }
