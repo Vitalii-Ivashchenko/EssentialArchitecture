@@ -63,6 +63,7 @@
 		FACB924A278A3B290022A0EE /* FeedImageCell+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB9249278A3B290022A0EE /* FeedImageCell+TestHelpers.swift */; };
 		FACB924C278A3B650022A0EE /* FeedViewControllerTests+LoaderSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB924B278A3B650022A0EE /* FeedViewControllerTests+LoaderSpy.swift */; };
 		FACB924E278A3BC40022A0EE /* FeedViewControllerTests+Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB924D278A3BC40022A0EE /* FeedViewControllerTests+Assertions.swift */; };
+		FACB9250278A3F200022A0EE /* FeedRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB924F278A3F200022A0EE /* FeedRefreshViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -169,6 +170,7 @@
 		FACB9249278A3B290022A0EE /* FeedImageCell+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedImageCell+TestHelpers.swift"; sourceTree = "<group>"; };
 		FACB924B278A3B650022A0EE /* FeedViewControllerTests+LoaderSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedViewControllerTests+LoaderSpy.swift"; sourceTree = "<group>"; };
 		FACB924D278A3BC40022A0EE /* FeedViewControllerTests+Assertions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedViewControllerTests+Assertions.swift"; sourceTree = "<group>"; };
+		FACB924F278A3F200022A0EE /* FeedRefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRefreshViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -427,6 +429,7 @@
 			isa = PBXGroup;
 			children = (
 				FACB91D42788CC0A0022A0EE /* FeedViewController.swift */,
+				FACB924F278A3F200022A0EE /* FeedRefreshViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -779,6 +782,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FACB9236278A38AC0022A0EE /* FeedImageDataLoader.swift in Sources */,
+				FACB9250278A3F200022A0EE /* FeedRefreshViewController.swift in Sources */,
 				FACB91D92789A3220022A0EE /* UIView+Shimmering.swift in Sources */,
 				FACB91D52788CC0A0022A0EE /* FeedViewController.swift in Sources */,
 				FACB91D72788D8C90022A0EE /* FeedImageCell.swift in Sources */,
