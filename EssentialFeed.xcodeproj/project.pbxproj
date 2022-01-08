@@ -371,8 +371,8 @@
 		FAB2CE17278860B5007E79DF /* EssentialFeediOS */ = {
 			isa = PBXGroup;
 			children = (
-				FACB91D42788CC0A0022A0EE /* FeedViewController.swift */,
 				FACB91D62788D8C90022A0EE /* FeedImageCell.swift */,
+				FACB91D42788CC0A0022A0EE /* FeedViewController.swift */,
 			);
 			path = EssentialFeediOS;
 			sourceTree = "<group>";
