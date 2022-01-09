@@ -6,7 +6,6 @@
 //
 
 import EssentialFeed
-import Foundation
 
 final class FeedViewModel {
     
