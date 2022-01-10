@@ -74,6 +74,7 @@
 		FACB9269278BD71A0022A0EE /* Feed.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACB9268278BD71A0022A0EE /* Feed.xcassets */; };
 		FACB926B278BE41F0022A0EE /* UITableView+Dequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB926A278BE41F0022A0EE /* UITableView+Dequeueing.swift */; };
 		FACB926D278BE5630022A0EE /* UIImageView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB926C278BE5630022A0EE /* UIImageView+Animations.swift */; };
+		FACB926F278C8E6C0022A0EE /* Feed.strings in Resources */ = {isa = PBXBuildFile; fileRef = FACB926E278C8E6C0022A0EE /* Feed.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -191,6 +192,7 @@
 		FACB9268278BD71A0022A0EE /* Feed.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Feed.xcassets; sourceTree = "<group>"; };
 		FACB926A278BE41F0022A0EE /* UITableView+Dequeueing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeueing.swift"; sourceTree = "<group>"; };
 		FACB926C278BE5630022A0EE /* UIImageView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Animations.swift"; sourceTree = "<group>"; };
+		FACB926E278C8E6C0022A0EE /* Feed.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Feed.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -519,6 +521,7 @@
 		FACB925B278B78720022A0EE /* Feed Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				FACB926E278C8E6C0022A0EE /* Feed.strings */,
 				FACB925E278B8BD40022A0EE /* FeedImagePresenter.swift */,
 				FACB9259278B62520022A0EE /* FeedImageViewModel.swift */,
 				FACB9260278B8DE00022A0EE /* FeedLoadingViewModel.swift */,
@@ -748,6 +751,7 @@
 			files = (
 				FACB9267278BD6C10022A0EE /* Feed.storyboard in Resources */,
 				FACB9269278BD71A0022A0EE /* Feed.xcassets in Resources */,
+				FACB926F278C8E6C0022A0EE /* Feed.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
