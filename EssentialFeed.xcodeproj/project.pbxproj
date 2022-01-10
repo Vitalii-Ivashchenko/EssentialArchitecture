@@ -73,6 +73,7 @@
 		FACB9267278BD6C10022A0EE /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACB9266278BD6C10022A0EE /* Feed.storyboard */; };
 		FACB9269278BD71A0022A0EE /* Feed.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACB9268278BD71A0022A0EE /* Feed.xcassets */; };
 		FACB926B278BE41F0022A0EE /* UITableView+Dequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB926A278BE41F0022A0EE /* UITableView+Dequeueing.swift */; };
+		FACB926D278BE5630022A0EE /* UIImageView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB926C278BE5630022A0EE /* UIImageView+Animations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -189,6 +190,7 @@
 		FACB9266278BD6C10022A0EE /* Feed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
 		FACB9268278BD71A0022A0EE /* Feed.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Feed.xcassets; sourceTree = "<group>"; };
 		FACB926A278BE41F0022A0EE /* UITableView+Dequeueing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeueing.swift"; sourceTree = "<group>"; };
+		FACB926C278BE5630022A0EE /* UIImageView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Animations.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -462,6 +464,7 @@
 				FACB91D82789A3220022A0EE /* UIView+Shimmering.swift */,
 				FACB9268278BD71A0022A0EE /* Feed.xcassets */,
 				FACB926A278BE41F0022A0EE /* UITableView+Dequeueing.swift */,
+				FACB926C278BE5630022A0EE /* UIImageView+Animations.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -833,6 +836,7 @@
 				FACB9261278B8DE00022A0EE /* FeedLoadingViewModel.swift in Sources */,
 				FACB91D92789A3220022A0EE /* UIView+Shimmering.swift in Sources */,
 				FACB925F278B8BD40022A0EE /* FeedImagePresenter.swift in Sources */,
+				FACB926D278BE5630022A0EE /* UIImageView+Animations.swift in Sources */,
 				FACB91D52788CC0A0022A0EE /* FeedViewController.swift in Sources */,
 				FACB91D72788D8C90022A0EE /* FeedImageCell.swift in Sources */,
 				FACB925A278B62520022A0EE /* FeedImageViewModel.swift in Sources */,
