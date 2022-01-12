@@ -32,10 +32,6 @@ public struct FeedErrorViewModel {
     }
 }
 
-public struct FeedLoadingViewModel {
-    public let isLoading: Bool
-}
-
 public final class FeedPresenter {
     
     private let feedView: FeedView
