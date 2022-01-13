@@ -406,9 +406,9 @@
 		FAAC70CF278F7F7C004E1062 /* Feed Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				FA53A1742790A31A004C8992 /* FeedImagePresenterTests.swift */,
 				FAA10A63278CB94D0060BC85 /* FeedLocalizationTests.swift */,
 				FAAC70D0278F7F97004E1062 /* FeedPresenterTests.swift */,
-				FA53A1742790A31A004C8992 /* FeedImagePresenterTests.swift */,
 			);
 			path = "Feed Presentation";
 			sourceTree = "<group>";
