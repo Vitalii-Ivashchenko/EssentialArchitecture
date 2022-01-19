@@ -96,7 +96,7 @@ class LoadFeedFromRemoteUseCaseTests: XCTestCase {
     
     func test_load_doesNotDeliverResultAfterSUTInstanceHasBeenDeallocated() {
         let url = URL(string: "https://any-url.com")!
-        let client = HttpClientSpy()
+        let client = HTTPClientSpy()
         var sut: RemoteFeedLoader? = RemoteFeedLoader(url: url, client: client)
         
         var capturedResults = [RemoteFeedLoader.Result]()
@@ -109,8 +109,8 @@ class LoadFeedFromRemoteUseCaseTests: XCTestCase {
     }
     
     // MARK: - Helpers
-    private func makeSUT(url: URL = URL(string: "https://a-url.com")!, file: StaticString = #filePath, line: UInt = #line) -> (sut: RemoteFeedLoader, client: HttpClientSpy) {
-        let client = HttpClientSpy()
+    private func makeSUT(url: URL = URL(string: "https://a-url.com")!, file: StaticString = #filePath, line: UInt = #line) -> (sut: RemoteFeedLoader, client: HTTPClientSpy) {
+        let client = HTTPClientSpy()
         let sut = RemoteFeedLoader(url: url, client: client)
         trackForMemoryLeaks(sut, file: file, line: line)
         trackForMemoryLeaks(client, file: file, line: line)
@@ -160,37 +160,5 @@ class LoadFeedFromRemoteUseCaseTests: XCTestCase {
         action()
         
         wait(for: [exp], timeout: 1.0)
-    }
-    
-    private class HttpClientSpy: HTTPClient {
-        
-        private struct Task: HTTPClientTask {
-            func cancel() {}
-        }
-        
-        private var messages = [(url: URL, completion: (HTTPClient.Result) -> Void)]()
-        
-        var requestedURLs: [URL] {
-            return messages.map { $0.url }
-        }
-        
-        func get(from url: URL, completion: @escaping (HTTPClient.Result) -> Void) -> HTTPClientTask {
-            messages.append((url, completion))
-            return Task()
-        }
-        
-        func complete(with error: Error, at index: Int = 0) {
-            messages[index].completion(.failure(error))
-        }
-        
-        func complete(withStatusCode code: Int, data: Data, at index: Int = 0) {
-            let response = HTTPURLResponse(
-                url: requestedURLs[index],
-                statusCode: code,
-                httpVersion: nil,
-                headerFields: nil
-            )!
-            messages[index].completion(.success((data, response)))
-        }
     }
 }
