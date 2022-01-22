@@ -1508,7 +1508,7 @@
 				FAA1ECFE279C19680018FBFA /* FeedStore 2.xcdatamodel */,
 				FAB2CD942783B386007E79DF /* FeedStore.xcdatamodel */,
 			);
-			currentVersion = FAB2CD942783B386007E79DF /* FeedStore.xcdatamodel */;
+			currentVersion = FAA1ECFE279C19680018FBFA /* FeedStore 2.xcdatamodel */;
 			path = FeedStore.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
