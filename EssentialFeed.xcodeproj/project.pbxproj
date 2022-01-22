@@ -187,6 +187,7 @@
 		FAA1ECF8279BF12B0018FBFA /* FeedImageDataStoreSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataStoreSpy.swift; sourceTree = "<group>"; };
 		FAA1ECFA279C0A890018FBFA /* CacheFeedImageDataUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedImageDataUseCaseTests.swift; sourceTree = "<group>"; };
 		FAA1ECFC279C12E10018FBFA /* CoreDataFeedImageDataStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedImageDataStoreTests.swift; sourceTree = "<group>"; };
+		FAA1ECFE279C19680018FBFA /* FeedStore 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "FeedStore 2.xcdatamodel"; sourceTree = "<group>"; };
 		FAAA9608277BB029001620EF /* CacheFeedUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedUseCaseTests.swift; sourceTree = "<group>"; };
 		FAAA960B277BD0BB001620EF /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
 		FAAA960D277BD113001620EF /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
@@ -445,9 +446,9 @@
 				FAA1ECF427997A760018FBFA /* FeedImageDataStore.swift */,
 				FAAA960D277BD113001620EF /* FeedStore.swift */,
 				FAAA9611277C9523001620EF /* LocalFeedImage.swift */,
+				FAA1ECF627997AD00018FBFA /* LocalFeedImageDataLoader.swift */,
 				FAAA960B277BD0BB001620EF /* LocalFeedLoader.swift */,
 				FAB2CD8F2783B04A007E79DF /* Infrastructure */,
-				FAA1ECF627997AD00018FBFA /* LocalFeedImageDataLoader.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -1500,6 +1501,7 @@
 		FAB2CD932783B386007E79DF /* FeedStore.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				FAA1ECFE279C19680018FBFA /* FeedStore 2.xcdatamodel */,
 				FAB2CD942783B386007E79DF /* FeedStore.xcdatamodel */,
 			);
 			currentVersion = FAB2CD942783B386007E79DF /* FeedStore.xcdatamodel */;
