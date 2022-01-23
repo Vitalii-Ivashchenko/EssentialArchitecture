@@ -17,7 +17,7 @@
 		FAAA3D96279CBC1F00426ABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAA3D94279CBC1F00426ABC /* Main.storyboard */; };
 		FAAA3D98279CBC2000426ABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAA3D97279CBC2000426ABC /* Assets.xcassets */; };
 		FAAA3D9B279CBC2000426ABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAA3D99279CBC2000426ABC /* LaunchScreen.storyboard */; };
-		FAAA3DA6279CBC2100426ABC /* EssentialAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA3DA5279CBC2100426ABC /* EssentialAppTests.swift */; };
+		FAAA3DA6279CBC2100426ABC /* FeedLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA3DA5279CBC2100426ABC /* FeedLoaderWithFallbackCompositeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +57,7 @@
 		FAAA3D9A279CBC2000426ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAAA3D9C279CBC2000426ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAAA3DA1279CBC2100426ABC /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAAA3DA5279CBC2100426ABC /* EssentialAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppTests.swift; sourceTree = "<group>"; };
+		FAAA3DA5279CBC2100426ABC /* FeedLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +125,7 @@
 		FAAA3DA4279CBC2100426ABC /* EssentialAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				FAAA3DA5279CBC2100426ABC /* EssentialAppTests.swift */,
+				FAAA3DA5279CBC2100426ABC /* FeedLoaderWithFallbackCompositeTests.swift */,
 			);
 			path = EssentialAppTests;
 			sourceTree = "<group>";
@@ -242,7 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAAA3DA6279CBC2100426ABC /* EssentialAppTests.swift in Sources */,
+				FAAA3DA6279CBC2100426ABC /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
