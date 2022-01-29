@@ -31,7 +31,6 @@
 		FAAA3D98279CBC2000426ABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAA3D97279CBC2000426ABC /* Assets.xcassets */; };
 		FAAA3D9B279CBC2000426ABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAA3D99279CBC2000426ABC /* LaunchScreen.storyboard */; };
 		FAAA3DA6279CBC2100426ABC /* FeedLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA3DA5279CBC2100426ABC /* FeedLoaderWithFallbackCompositeTests.swift */; };
-		FAFE4A0F27A3530B005229EC /* DebuggingSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFE4A0E27A3530B005229EC /* DebuggingSceneDelegate.swift */; };
 		FAFE4A2327A5E36F005229EC /* FeedViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFE4A1F27A5E36E005229EC /* FeedViewAdapter.swift */; };
 		FAFE4A2427A5E36F005229EC /* FeedLoaderPresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFE4A2227A5E36E005229EC /* FeedLoaderPresentationAdapter.swift */; };
 		FAFE4A2527A5E36F005229EC /* MainQueueDispatchDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFE4A2027A5E36E005229EC /* MainQueueDispatchDecorator.swift */; };
@@ -102,7 +101,6 @@
 		FAAA3D9C279CBC2000426ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAAA3DA1279CBC2100426ABC /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAA3DA5279CBC2100426ABC /* FeedLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
-		FAFE4A0E27A3530B005229EC /* DebuggingSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingSceneDelegate.swift; sourceTree = "<group>"; };
 		FAFE4A1D27A5E36E005229EC /* FeedUIComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUIComposer.swift; sourceTree = "<group>"; };
 		FAFE4A1E27A5E36E005229EC /* FeedImageDataLoaderPresentationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderPresentationAdapter.swift; sourceTree = "<group>"; };
 		FAFE4A1F27A5E36E005229EC /* FeedViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewAdapter.swift; sourceTree = "<group>"; };
@@ -197,7 +195,6 @@
 			children = (
 				FAAA3D9C279CBC2000426ABC /* Info.plist */,
 				FAAA3D8E279CBC1F00426ABC /* AppDelegate.swift */,
-				FAFE4A0E27A3530B005229EC /* DebuggingSceneDelegate.swift */,
 				FA64A785279E139D007A8E93 /* FeedImageDataLoaderCacheDecorator.swift */,
 				FAFE4A1E27A5E36E005229EC /* FeedImageDataLoaderPresentationAdapter.swift */,
 				FA64A76C279DE483007A8E93 /* FeedImageDataLoaderWithFallbackComposite.swift */,
@@ -339,7 +336,6 @@
 				FAAA3D8F279CBC1F00426ABC /* AppDelegate.swift in Sources */,
 				FA64A769279DDF82007A8E93 /* FeedLoaderWithFallbackComposite.swift in Sources */,
 				FA64A77C279E0E92007A8E93 /* FeedLoaderCacheDecorator.swift in Sources */,
-				FAFE4A0F27A3530B005229EC /* DebuggingSceneDelegate.swift in Sources */,
 				FAAA3D91279CBC1F00426ABC /* SceneDelegate.swift in Sources */,
 				FAFE4A2727A5E36F005229EC /* FeedUIComposer.swift in Sources */,
 				FAFE4A2427A5E36F005229EC /* FeedLoaderPresentationAdapter.swift in Sources */,
