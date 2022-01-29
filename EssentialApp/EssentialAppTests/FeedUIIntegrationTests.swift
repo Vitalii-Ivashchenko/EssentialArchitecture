@@ -2,6 +2,7 @@
 //  Created by Vitalii on 07.01.2022.
 //
 
+import EssentialApp
 import EssentialFeed
 import EssentialFeediOS
 import UIKit
