@@ -33,6 +33,7 @@
 		FAAA3DA6279CBC2100426ABC /* FeedLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA3DA5279CBC2100426ABC /* FeedLoaderWithFallbackCompositeTests.swift */; };
 		FAFE4A0627A33391005229EC /* EssentialAppUIAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFE4A0527A33391005229EC /* EssentialAppUIAcceptanceTests.swift */; };
 		FAFE4A0F27A3530B005229EC /* DebuggingSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFE4A0E27A3530B005229EC /* DebuggingSceneDelegate.swift */; };
+		FAFE4A1C27A5DE0D005229EC /* SceneDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFE4A1B27A5DE0D005229EC /* SceneDelegateTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,7 @@
 		FAFE4A0327A33391005229EC /* EssentialAppUIAcceptanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppUIAcceptanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFE4A0527A33391005229EC /* EssentialAppUIAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUIAcceptanceTests.swift; sourceTree = "<group>"; };
 		FAFE4A0E27A3530B005229EC /* DebuggingSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingSceneDelegate.swift; sourceTree = "<group>"; };
+		FAFE4A1B27A5DE0D005229EC /* SceneDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegateTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				FAFE4A0527A33391005229EC /* EssentialAppUIAcceptanceTests.swift */,
+				FAFE4A1B27A5DE0D005229EC /* SceneDelegateTests.swift */,
 			);
 			path = EssentialAppUIAcceptanceTests;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAFE4A0627A33391005229EC /* EssentialAppUIAcceptanceTests.swift in Sources */,
+				FAFE4A1C27A5DE0D005229EC /* SceneDelegateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
