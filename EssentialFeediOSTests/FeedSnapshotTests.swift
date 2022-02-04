@@ -6,6 +6,7 @@
 //
 
 @testable import EssentialFeed
+import EssentialFeediOS
 import XCTest
 
 class FeedSnapshotTests: XCTestCase {
@@ -24,6 +25,14 @@ class FeedSnapshotTests: XCTestCase {
         sut.display(feedWithContent())
         
         record(snapshot: sut.snapshot(), named: "FEED_WITH_CONTENT")
+    }
+    
+    func test_feedWithErrorMessage() {
+        let sut = makeSUT()
+        
+        sut.display(.error(message: "This is a\nmulti-line\nerror message"))
+        
+        record(snapshot: sut.snapshot(), named: "FEED_WITH_ERROR_MESSAGE")
     }
     
     // MARK: - Helpers
