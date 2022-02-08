@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA0A16B627B2C757008BFA73 /* CombineHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A16B527B2C757008BFA73 /* CombineHelpers.swift */; };
 		FA64A763279CBE04007A8E93 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA64A761279CBE04007A8E93 /* EssentialFeed.framework */; };
 		FA64A764279CBE04007A8E93 /* EssentialFeed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA64A761279CBE04007A8E93 /* EssentialFeed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FA64A765279CBE04007A8E93 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA64A762279CBE04007A8E93 /* EssentialFeediOS.framework */; };
@@ -66,6 +67,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA0A16B527B2C757008BFA73 /* CombineHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineHelpers.swift; sourceTree = "<group>"; };
 		FA64A761279CBE04007A8E93 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA64A762279CBE04007A8E93 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA64A76F279DE522007A8E93 /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 			children = (
 				FAAA3D9C279CBC2000426ABC /* Info.plist */,
 				FAAA3D8E279CBC1F00426ABC /* AppDelegate.swift */,
+				FA0A16B527B2C757008BFA73 /* CombineHelpers.swift */,
 				FAFE4A1E27A5E36E005229EC /* FeedImageDataLoaderPresentationAdapter.swift */,
 				FAFE4A2227A5E36E005229EC /* FeedLoaderPresentationAdapter.swift */,
 				FAFE4A1D27A5E36E005229EC /* FeedUIComposer.swift */,
@@ -301,6 +304,7 @@
 			files = (
 				FAAA3D93279CBC1F00426ABC /* ViewController.swift in Sources */,
 				FAFE4A2827A5E36F005229EC /* FeedImageDataLoaderPresentationAdapter.swift in Sources */,
+				FA0A16B627B2C757008BFA73 /* CombineHelpers.swift in Sources */,
 				FAAA3D8F279CBC1F00426ABC /* AppDelegate.swift in Sources */,
 				FAAA3D91279CBC1F00426ABC /* SceneDelegate.swift in Sources */,
 				FAFE4A2727A5E36F005229EC /* FeedUIComposer.swift in Sources */,
