@@ -9,6 +9,23 @@ import Combine
 import EssentialFeed
 import Foundation
 
+public extension HTTPClient {
+    
+    typealias Publisher = AnyPublisher<(Data, HTTPURLResponse), Error>
+    
+    func getPublisher(url: URL) -> Publisher {
+        var task: HTTPClientTask?
+        
+        return Deferred {
+            Future { completion in
+                task = self.get(from: url, completion: completion)
+            }
+        }
+        .handleEvents(receiveCancel: { task?.cancel() })
+        .eraseToAnyPublisher()
+    }
+}
+
 public extension FeedImageDataLoader {
     
     typealias Publisher = AnyPublisher<Data, Error>
@@ -89,7 +106,7 @@ extension DispatchQueue {
     }
     
     struct ImmediateWhenOnMainQueueScheduler: Scheduler {
-                
+        
         typealias SchedulerTimeType = DispatchQueue.SchedulerTimeType
         typealias SchedulerOptions = DispatchQueue.SchedulerOptions
         
