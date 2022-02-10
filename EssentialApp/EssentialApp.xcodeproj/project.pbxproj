@@ -29,7 +29,7 @@
 		FAFE4A3227A5E3C6005229EC /* UIImage+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFE4A2927A5E3C5005229EC /* UIImage+TestHelpers.swift */; };
 		FAFE4A3327A5E3C6005229EC /* UIButton+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFE4A2B27A5E3C5005229EC /* UIButton+TestHelpers.swift */; };
 		FAFE4A3427A5E3C6005229EC /* UIRefreshControl+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFE4A2D27A5E3C5005229EC /* UIRefreshControl+TestHelpers.swift */; };
-		FAFE4A3527A5E3C6005229EC /* FeedViewControllerTests+LoaderSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFE4A3127A5E3C6005229EC /* FeedViewControllerTests+LoaderSpy.swift */; };
+		FAFE4A3527A5E3C6005229EC /* FeedUIIntegrationTests+LoaderSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFE4A3127A5E3C6005229EC /* FeedUIIntegrationTests+LoaderSpy.swift */; };
 		FAFE4A3627A5E3C6005229EC /* FeedImageCell+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFE4A2F27A5E3C6005229EC /* FeedImageCell+TestHelpers.swift */; };
 		FAFE4A3727A5E3C6005229EC /* FeedViewControllerTests+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFE4A3027A5E3C6005229EC /* FeedViewControllerTests+Localization.swift */; };
 		FAFE4A3827A5E3C6005229EC /* FeedViewController+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFE4A2A27A5E3C5005229EC /* FeedViewController+TestHelpers.swift */; };
@@ -95,7 +95,7 @@
 		FAFE4A2E27A5E3C5005229EC /* UIControl+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+TestHelpers.swift"; sourceTree = "<group>"; };
 		FAFE4A2F27A5E3C6005229EC /* FeedImageCell+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedImageCell+TestHelpers.swift"; sourceTree = "<group>"; };
 		FAFE4A3027A5E3C6005229EC /* FeedViewControllerTests+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedViewControllerTests+Localization.swift"; sourceTree = "<group>"; };
-		FAFE4A3127A5E3C6005229EC /* FeedViewControllerTests+LoaderSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedViewControllerTests+LoaderSpy.swift"; sourceTree = "<group>"; };
+		FAFE4A3127A5E3C6005229EC /* FeedUIIntegrationTests+LoaderSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedUIIntegrationTests+LoaderSpy.swift"; sourceTree = "<group>"; };
 		FAFE4A3B27A5E4FA005229EC /* FeedUIIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUIIntegrationTests.swift; sourceTree = "<group>"; };
 		FAFE4A3D27A5EF8E005229EC /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
 		FAFE4A3F27A600CB005229EC /* HTTPClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientStub.swift; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 				FAFE4A2F27A5E3C6005229EC /* FeedImageCell+TestHelpers.swift */,
 				FAFE4A2C27A5E3C5005229EC /* FeedUIIntegrationTests+Assertions.swift */,
 				FAFE4A2A27A5E3C5005229EC /* FeedViewController+TestHelpers.swift */,
-				FAFE4A3127A5E3C6005229EC /* FeedViewControllerTests+LoaderSpy.swift */,
+				FAFE4A3127A5E3C6005229EC /* FeedUIIntegrationTests+LoaderSpy.swift */,
 				FAFE4A3027A5E3C6005229EC /* FeedViewControllerTests+Localization.swift */,
 				FAFE4A3F27A600CB005229EC /* HTTPClientStub.swift */,
 				FAFE4A4127A6012F005229EC /* InMemoryFeedStore.swift */,
@@ -318,7 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAFE4A3527A5E3C6005229EC /* FeedViewControllerTests+LoaderSpy.swift in Sources */,
+				FAFE4A3527A5E3C6005229EC /* FeedUIIntegrationTests+LoaderSpy.swift in Sources */,
 				FA64A772279DE57F007A8E93 /* SharedTestHelpers.swift in Sources */,
 				FAFE4A4027A600CB005229EC /* HTTPClientStub.swift in Sources */,
 				FAFE4A3827A5E3C6005229EC /* FeedViewController+TestHelpers.swift in Sources */,
