@@ -25,12 +25,13 @@ public final class FeedUIComposer {
             title: FeedPresenter.title
         )
         
-        presentationAdapter.presenter = FeedPresenter(
-            feedView: FeedViewAdapter(
+        presentationAdapter.presenter = LoadResourcePresenter(
+            resourceView: FeedViewAdapter(
                 controller: feedController,
                 imageLoader: imageLoader),
             loadingView: WeakReferenceVirtualProxy(feedController),
-            errorView: WeakReferenceVirtualProxy(feedController)
+            errorView: WeakReferenceVirtualProxy(feedController),
+            mapper: FeedPresenter.map
         )
         
         return feedController
