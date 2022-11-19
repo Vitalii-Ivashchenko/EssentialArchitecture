@@ -370,6 +370,42 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		FA2B45072929600700AB2C5E /* Shared UI */ = {
+			isa = PBXGroup;
+			children = (
+				FA2B45082929601B00AB2C5E /* Controllers */,
+				FA2B45092929604100AB2C5E /* Views */,
+			);
+			path = "Shared UI";
+			sourceTree = "<group>";
+		};
+		FA2B45082929601B00AB2C5E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FACB91D42788CC0A0022A0EE /* ListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FA2B45092929604100AB2C5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAAC70D2278F8644004E1062 /* ErrorView.swift */,
+				FA2B450A2929606D00AB2C5E /* Helpers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA2B450A2929606D00AB2C5E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FAAC70D7278F96D5004E1062 /* UIRefreshControl+Helpers.swift */,
+				FACB926A278BE41F0022A0EE /* UITableView+Dequeueing.swift */,
+				FAC6F97527AD542C00E10697 /* UITableView+HeaderSizing.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		FA4E28722788B5C300AC242A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -571,9 +607,6 @@
 			isa = PBXGroup;
 			children = (
 				FACB926C278BE5630022A0EE /* UIImageView+Animations.swift */,
-				FAAC70D7278F96D5004E1062 /* UIRefreshControl+Helpers.swift */,
-				FACB926A278BE41F0022A0EE /* UITableView+Dequeueing.swift */,
-				FAC6F97527AD542C00E10697 /* UITableView+HeaderSizing.swift */,
 				FACB91D82789A3220022A0EE /* UIView+Shimmering.swift */,
 			);
 			path = Helpers;
@@ -635,6 +668,7 @@
 			isa = PBXGroup;
 			children = (
 				FACB9238278A38C40022A0EE /* Feed UI */,
+				FA2B45072929600700AB2C5E /* Shared UI */,
 			);
 			path = EssentialFeediOS;
 			sourceTree = "<group>";
@@ -671,7 +705,6 @@
 			isa = PBXGroup;
 			children = (
 				FACB9251278AEA900022A0EE /* FeedImageCellController.swift */,
-				FACB91D42788CC0A0022A0EE /* ListViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -680,7 +713,6 @@
 			isa = PBXGroup;
 			children = (
 				FACB9266278BD6C10022A0EE /* Feed.storyboard */,
-				FAAC70D2278F8644004E1062 /* ErrorView.swift */,
 				FACB91D62788D8C90022A0EE /* FeedImageCell.swift */,
 				FACB9268278BD71A0022A0EE /* Feed.xcassets */,
 				FAAC70D4278F9610004E1062 /* Helpers */,
