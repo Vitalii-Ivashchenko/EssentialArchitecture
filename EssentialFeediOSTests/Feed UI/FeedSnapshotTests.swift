@@ -1,8 +1,5 @@
 //
-//  FeedSnapshotTests.swift
-//  EssentialFeed
-//
-//  Created by Vitalii on 01.02.2022.
+//  Copyright © 2022 Vitalii Ivashchenko. All rights reserved.
 //
 
 @testable import EssentialFeed

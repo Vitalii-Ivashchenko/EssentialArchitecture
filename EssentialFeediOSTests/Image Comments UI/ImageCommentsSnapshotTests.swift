@@ -1,5 +1,5 @@
 //
-// Copyright © 2022 Vitalii Ivashchenko. All rights reserved.
+//  Copyright © 2022 Vitalii Ivashchenko. All rights reserved.
 //
 
 import EssentialFeed
