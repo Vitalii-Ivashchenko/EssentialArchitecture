@@ -25,7 +25,7 @@ public final class FeedImageCellController: NSObject {
     }
 }
 
-extension FeedImageCellController: CellController {
+extension FeedImageCellController: UITableViewDataSource, UITableViewDelegate, UITableViewDataSourcePrefetching {
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         1
@@ -43,15 +43,15 @@ extension FeedImageCellController: CellController {
         return cell!
     }
     
+    public func tableView(_ tableView: UITableView, didEndDisplaying cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        cancelLoad()
+    }
+
     public func tableView(_ tableView: UITableView, prefetchRowsAt indexPaths: [IndexPath]) {
         delegate.didRequestImage()
     }
     
     public func tableView(_ tableView: UITableView, cancelPrefetchingForRowsAt indexPaths: [IndexPath]) {
-        cancelLoad()
-    }
-    
-    public func tableView(_ tableView: UITableView, didEndDisplaying cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         cancelLoad()
     }
     

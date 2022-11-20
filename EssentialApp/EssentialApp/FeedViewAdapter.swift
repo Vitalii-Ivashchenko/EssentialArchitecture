@@ -1,8 +1,5 @@
 //
-//  FeedViewAdapter.swift
-//  EssentialFeed
-//
-//  Created by Vitalii on 10.01.2022.
+// Copyright © 2022 Vitalii Ivashchenko. All rights reserved.
 //
 
 import EssentialFeed
@@ -38,7 +35,7 @@ final class FeedViewAdapter: ResourceView {
                 mapper: UIImage.tryMake
             )
             
-            return view
+            return CellController(view)
         })
     }
 }
