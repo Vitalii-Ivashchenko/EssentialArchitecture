@@ -1,8 +1,5 @@
 //
-//  UITableView+Dequeueing.swift
-//  EssentialFeed
-//
-//  Created by Vitalii on 10.01.2022.
+// Copyright © 2022 Vitalii Ivashchenko. All rights reserved.
 //
 
 import UIKit
