@@ -7,17 +7,16 @@ import EssentialFeed
 import EssentialFeediOS
 import UIKit
 
-public final class FeedUIComposer {
+public final class CommentsUIComposer {
     
     private typealias FeedPresentationAdapter = LoadResourcePresentationAdapter<[FeedImage], FeedViewAdapter>
     
     private init() {}
     
-    public static func feedComposedWith(
-        feedLoader: @escaping () -> AnyPublisher<[FeedImage], Error>,
-        imageLoader: @escaping (URL) -> FeedImageDataLoader.Publisher
+    public static func commentsComposedWith(
+        commentsLoader: @escaping () -> AnyPublisher<[FeedImage], Error>
     ) -> ListViewController {
-        let presentationAdapter = FeedPresentationAdapter(loader: feedLoader)
+        let presentationAdapter = FeedPresentationAdapter(loader: commentsLoader)
         
         let feedController = makeFeedViewController(title: FeedPresenter.title)
         feedController.onRefresh = presentationAdapter.loadResource
@@ -25,7 +24,7 @@ public final class FeedUIComposer {
         presentationAdapter.presenter = LoadResourcePresenter(
             resourceView: FeedViewAdapter(
                 controller: feedController,
-                imageLoader: imageLoader),
+                imageLoader: { _ in Empty<Data, Error>().eraseToAnyPublisher() }),
             loadingView: WeakReferenceVirtualProxy(feedController),
             errorView: WeakReferenceVirtualProxy(feedController),
             mapper: FeedPresenter.map

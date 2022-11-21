@@ -1,11 +1,10 @@
 //
-//  Created by Vitalii on 07.01.2022.
+//  Copyright © 2022 Vitalii Ivashchenko. All rights reserved.
 //
 
 import EssentialApp
 import EssentialFeed
 import EssentialFeediOS
-import UIKit
 import XCTest
 
 class FeedUIIntegrationTests: XCTestCase {
