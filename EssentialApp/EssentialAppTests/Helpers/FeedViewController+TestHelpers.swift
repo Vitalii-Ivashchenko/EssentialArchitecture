@@ -35,7 +35,7 @@ extension ListViewController {
         errorView.simulateTap()
     }
     
-    func simulateUserInitiatedFeedReload() {
+    func simulateUserInitiatedReload() {
         refreshControl?.simulatePullToRefresh()
     }
     
