@@ -1,8 +1,5 @@
 //
-//  ImageCommentsPresenter.swift
-//  EssentialFeed
-//
-//  Created by Vitalii on 17.02.2022.
+//  Copyright © 2022 Vitalii Ivashchenko. All rights reserved.
 //
 
 import Foundation

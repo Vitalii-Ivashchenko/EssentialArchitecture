@@ -1,8 +1,5 @@
 //
-//  FeedUIIntegrationTests+Localization.swift
-//  EssentialApp
-//
-//  Created by Vitalii on 17.02.2022.
+//  Copyright © 2022 Vitalii Ivashchenko. All rights reserved.
 //
 
 import EssentialFeed
@@ -19,5 +16,9 @@ extension FeedUIIntegrationTests {
     
     var feedTitle: String {
         FeedPresenter.title
+    }
+    
+    var commentsTitle: String {
+        ImageCommentsPresenter.title
     }
 }
