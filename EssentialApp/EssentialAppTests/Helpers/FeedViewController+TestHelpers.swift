@@ -23,20 +23,23 @@ extension ListViewController {
         return refreshControl?.isRefreshing == true
     }
     
-    var feedImagesSection: Int {
-        return 0
-    }
-    
-    func renderedFeedImageData(at index: Int) -> Data? {
-        return simulateFeedImageViewVisible(at: index)?.renderedImage
-    }
-    
     func simulateErrorViewTap() {
         errorView.simulateTap()
     }
     
     func simulateUserInitiatedReload() {
         refreshControl?.simulatePullToRefresh()
+    }
+}
+
+extension ListViewController {
+    
+    var feedImagesSection: Int {
+        return 0
+    }
+    
+    func renderedFeedImageData(at index: Int) -> Data? {
+        return simulateFeedImageViewVisible(at: index)?.renderedImage
     }
     
     @discardableResult
@@ -79,5 +82,36 @@ extension ListViewController {
         let ds = tableView.dataSource
         let indexPath = IndexPath(row: row, section: feedImagesSection)
         return ds?.tableView(tableView, cellForRowAt: indexPath)
+    }
+}
+
+extension ListViewController {
+    
+    var commentsSection: Int {
+        return 0
+    }
+    
+    func numberOfRenderedComments() -> Int {
+        tableView.numberOfSections == 0 ? 0 : tableView.numberOfRows(inSection: commentsSection)
+    }
+    
+    func commentMessage(at row: Int) -> String? {
+        return commentView(at: row)?.messageLabel.text
+    }
+    
+    func commentDate(at row: Int) -> String? {
+        return commentView(at: row)?.dateLabel.text
+    }
+    
+    func commentUsername(at row: Int) -> String? {
+        return commentView(at: row)?.usernameLabel.text
+    }
+    
+    private func commentView(at row: Int) -> ImageCommentCell? {
+        guard numberOfRenderedComments() > row else { return nil }
+        
+        let ds = tableView.dataSource
+        let indexPath = IndexPath(row: row, section: commentsSection)
+        return ds?.tableView(tableView, cellForRowAt: indexPath) as? ImageCommentCell
     }
 }
