@@ -1,8 +1,5 @@
 //
-//  FeedViewController+TestHelpers.swift
-//  EssentialFeed
-//
-//  Created by Vitalii on 08.01.2022.
+//  Copyright © 2022 Vitalii Ivashchenko. All rights reserved.
 //
 
 import EssentialFeediOS
